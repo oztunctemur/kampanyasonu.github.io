@@ -6,23 +6,10 @@
 			<meta name="description" content="Açıklama bulunamadı!" />
 			<meta property="og:title" content="AL Tekstil - Kumaş Mağazası" />
 			<meta property="og:description" content="Açıklama bulunamadı!" />
-			
-		<script type="text/javascript">
-      var framefenster = document.getElementsByTagName("iFrame");
-      var auto_resize_timer = window.setInterval("autoresize_frames()", 800);
-      function autoresize_frames() {
-        for (var i = 0; i < framefenster.length; ++i) {
-            if(framefenster[i].contentWindow.document.body){
-              var framefenster_size = framefenster[i].contentWindow.document.body.offsetHeight;
-              if(document.all && !window.opera) {
-                framefenster_size = framefenster[i].contentWindow.document.body.scrollHeight;
-              }
-              framefenster[i].style.height = framefenster_size + 'px';
-            }
-        }
-      }
-    </script>
- 
+	</head>
+	<body>
+	
+	<iframe runat="server" id="_theFrame"  src="https://cazipbirgiyim.com/mont" width="100%" scrolling="no" height="200" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" style="display: block; background: none repeat scroll 0% 0% transparent; width: 100%;" />
 
-<iframe id="testimonials" name="testimonials" src="https://cazipbirgiyim.com/mont"; allowtransparency="true" onload="this.style.height=(this.contentDocument.body.scrollHeight+45) +'px !important';" scrolling="no" style="width:100%;min-height:100%;border:none;overflow-y:hidden;overflow-x:hidden;"></iframe>
-			</html>
+	</body>
+		</html>
